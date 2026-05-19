@@ -17,7 +17,7 @@ indeed_QA/
 ├── models.py            # Pydantic-модели для валидации ответов API
 ├── test_auth.py         # Тесты аутентификации и работы с токенами
 ├── test_profiles.py     # Тесты профилей пользователей и ролевой модели
-└──requirements.txt     # Зависимости проекта
+└── requirements.txt     # Зависимости проекта
 ```
 
 ## Установка
@@ -31,10 +31,10 @@ pip install -r requirements.txt
 ## Запуск тестов
 
 ```bash
-pytest                        # все тесты
-pytest testy_autentifikacii.py           # только тесты аутентификации
-pytest testy_profilej.py       # только тесты профилей
-pytest -v                     # с подробным выводом
+pytest                          # все тесты
+pytest testy_autentifikacii.py  # только тесты аутентификации
+pytest testy_profilej.py        # только тесты профилей
+pytest -v                       # с подробным выводом
 ```
 
 ## Описание тестов
